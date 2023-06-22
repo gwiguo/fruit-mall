@@ -1,0 +1,93 @@
+.swiper-container,.swiper-container .screen-swiper  {
+	height: 600rpx;
+}
+.swiper-container .screen-swiper image{
+    height: 100%;
+    width: 100%;
+}
+.index-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.index-menu .menu-list{
+    padding: 20rpx 0;
+    width: 172.5rpx;
+    text-align: center;
+}
+.index-menu .menu-list image{
+    height: 80rpx;
+    width: 80rpx;
+}
+.index-hot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.index-hot .hot-item{
+    box-sizing: border-box;
+    width: 330rpx;
+    height: 240rpx;
+    margin-bottom: 10px;
+    /* margin-right: 10px; */
+}
+.index-hot .hot-item image{
+    width: 100%;
+    height: 100%;
+}
+.goods-container .goods-title {
+    text-align: center;
+    height: 90rpx;
+    line-height: 90rpx;
+    color: #333;
+    font-size: 32rpx;
+    display: flex;
+    justify-content: center;
+    background-color: #e8f4d9;
+}
+.goods-title .line {
+    width: 20rpx;
+    border-top: 1rpx solid #b4282d;
+    margin-top: 45rpx;
+    height: 1rpx;
+}
+.goods-container .goods-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    padding-top: 30rpx;
+}
+.goods-container .goods-list .list-item {
+    width: 330rpx;
+    height: 480rpx;
+    overflow: hidden;
+    margin-bottom: 20rpx;
+}
+.goods-container .goods-list .list-item image {
+    width: 100%;
+    height: 330rpx;
+    border-radius: 6rpx;
+}
+.goods-container .goods-list .list-item .goods-list-title {
+    font-size: 30rpx;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.goods-container .goods-list .list-item .goods-list-text {
+    font-size: 24rpx;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.goods-container .goods-list .list-item .goods-list-money {
+    font-size: 30rpx;
+    color: #ab2b2b;
+}

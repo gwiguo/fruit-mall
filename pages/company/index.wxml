@@ -1,0 +1,21 @@
+<view class="container">
+    <view class="company-title">公司简介</view>
+    <view class="company-cover">
+        <image src="https://f.cdn-static.cn/lqWxyI3EBgxgeh4EeZmr6g0K0iyl?imageView2/2/w/2000/q/75" mode="aspectFill"/>
+        <view class="company-text">
+            <view>
+                致力于做
+            </view>
+            <view>
+                更好吃的水果
+            </view>
+        </view>
+    </view>
+    <view class="company-slogan">
+        <view>一生只做一件事</view>
+        <view>一心一意做水果</view>
+    </view>
+    <view class="company-content">
+        水果园（全称珠海水果园实业（集团）股份有限公司），2001年成立于珠海，是一家集水果采购、种植支持、采后保鲜、物流仓储、标准分级、营销拓展、品牌运营、门店零售、信息科技、金融资本、科研教育于一体的大型连锁企业。
+    </view>
+</view>

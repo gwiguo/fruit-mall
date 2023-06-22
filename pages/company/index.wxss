@@ -1,0 +1,38 @@
+.company-title{
+    height: 102px;
+    line-height: 102px;
+    font-size: 32px;
+    text-align: center;
+}
+.company-cover{
+    position: relative;
+    width: 100%;
+    height: 360px;
+    
+}
+.company-cover image{
+    width: 100%;
+    height: 100%;
+}
+.company-text{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 32px;
+    color: #FFF;
+}
+.company-text view:last-child{
+    margin-left: 20px;
+}
+.company-slogan{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 6px;
+}
+.company-content{
+    margin: 10px 20px;
+    color: rgb(103, 103, 103);
+    font-weight: 400;
+    line-height: 27px;
+}

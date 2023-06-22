@@ -1,0 +1,35 @@
+{
+    "appid": "wxacca9b5fb29d1a57",
+    "compileType": "miniprogram",
+    "libVersion": "2.32.1",
+    "packOptions": {
+        "ignore": [
+            {
+                "value": "/minitest",
+                "type": "folder"
+            }
+        ],
+        "include": []
+    },
+    "setting": {
+        "coverView": true,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "enhance": true,
+        "showShadowRootInWxmlPanel": true,
+        "packNpmRelationList": [],
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "condition": false
+    },
+    "condition": {},
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    },
+    "testRoot": "minitest/"
+}

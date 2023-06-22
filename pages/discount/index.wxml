@@ -1,0 +1,16 @@
+<view class="container">
+    <view class="discount-title">秒杀专区</view>
+    <view class="card-item" wx:for="{{list}}" wx:key="id">
+        <view class="image-wrapper">
+            <image src="{{item.pic}}" mode="aspectFill"/>
+        </view>
+        <view class="card-content">
+            <view class="card-title">
+                {{ item.title }}
+            </view>
+            <view class="card-price">
+                {{ item.price }}
+            </view>
+        </view>
+    </view>
+</view>

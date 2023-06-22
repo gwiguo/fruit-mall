@@ -1,0 +1,40 @@
+<view class="container">
+    <view class="my-avatar">
+        <view class="avatar-wrapper">
+            <image wx:if="{{is_login}}" src="{{ avatarUrl }}" mode="aspectFill"/>
+        </view>
+        <button class="login_btn" wx:if="{{!is_login}}" bindtap="login">请先登录</button>
+        <text wx:else>{{nickName}}</text>
+    </view> 
+	<view class="cu-bar" style="width: 100%;">
+		<view class="action">
+			<text class="cuIcon-title text-green"></text> 工具
+		</view>
+	</view>
+	<view class="cu-list">
+		<view class="cu-item" bindtap="bindtap">
+            <image src="/images/my/定位.png" mode="aspectFill"/>
+			<text>地址管理</text>
+		</view>
+		<view class="cu-item" bindtap="bindtap">
+            <image src="/images/my/店铺.png" mode="aspectFill"/>
+			<text>优惠买单</text>
+		</view>
+		<view class="cu-item" bindtap="bindtap">
+            <image src="/images/my/收藏.png" mode="aspectFill"/>
+			<text>收藏记录</text>
+		</view>
+		<view class="cu-item" bindtap="bindtap">
+            <image src="/images/my/拼团.png" mode="aspectFill"/>
+			<text>我的拼团</text>
+		</view>
+		<view class="cu-item" bindtap="bindtap">
+            <image src="/images/my/砍价.png" mode="aspectFill"/>
+			<text>我的砍价</text>
+		</view>
+		<view class="cu-item" bindtap="bindtap">
+            <image src="/images/my/客服.png" mode="aspectFill"/>
+			<text>联系客服</text>
+		</view>
+	</view>
+</view>

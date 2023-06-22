@@ -1,0 +1,32 @@
+<view class="container">
+	<view class="type-container-boxx">
+		<view class="scroll-view-container">
+			<scroll-view scroll-y="true" scroll-into-view="true" scroll-with-animation="true" class="type-container">
+				<view scroll-y="true" wx:for-items="{{categories}}" wx:key="id" class="type-box" id="{{index}}" bindtap="tapCategory" data-category="{{item}}">
+					<view class="type-navbar-item {{activeCategoryName == item ? 'type-item-on' : ''}}">
+						{{item}}
+					</view>
+				</view>
+			</scroll-view>
+		</view>
+		<view class="list-container">
+			<view class="type-list">
+				<view class="goods-list">
+					<view hover-class="none" wx:for="{{currentGoods}}" wx:key="id" class="item">
+						<view class="image">
+							<image src="{{item.pic}}" mode="aspectFill"></image>
+						</view>
+						<view class="right">
+							<view class="name">{{item.name}}</view>
+							<view class="text-price">{{item.minPrice}}</view>
+							<view class="margin-top-sm text-gray">已售 <text class="text-black">{{item.numberSells}}</text> 件</view>
+							<view class="add" data-id="{{item.id}}" bindtap="tapAdd">
+                                <image src="/images/categories/add@2x.png" mode="aspectFill"/>
+                            </view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+    </view>
+</view>
