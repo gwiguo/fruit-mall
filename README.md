@@ -9,13 +9,13 @@
 
 ## 项目截图:
 
-<img src="https://github.com/gwiguo/fruit-mall/blob/master/images/screenshots/Snipaste_2023-06-22_21-52-56.png" width="320px" style="display:inline;">
+<img src="https://github.com/gwiguo/fruit-mall/blob/master/screenshot/Snipaste_2023-06-22_21-52-56.png" width="320px" style="display:inline;">
 
-<img src="https://github.com/gwiguo/fruit-mall/blob/master/images/screenshots/Snipaste_2023-06-22_21-53-24.png" width="320px" style="display:inline;">
+<img src="https://github.com/gwiguo/fruit-mall/blob/master/screenshot/Snipaste_2023-06-22_21-53-24.png" width="320px" style="display:inline;">
 
-<img src="https://github.com/gwiguo/fruit-mall/blob/master/images/screenshots/Snipaste_2023-06-22_21-53-34.png" width="320px" style="display:inline;">
+<img src="https://github.com/gwiguo/fruit-mall/blob/master/screenshot/Snipaste_2023-06-22_21-53-34.png" width="320px" style="display:inline;">
 
-<img src="https://github.com/gwiguo/fruit-mall/blob/master/images/screenshots/Snipaste_2023-06-22_21-53-41.png" width="320px" style="display:inline;"> 
+<img src="https://github.com/gwiguo/fruit-mall/blob/master/screenshot/Snipaste_2023-06-22_21-53-41.png" width="320px" style="display:inline;"> 
 
 ## 开发环境：
 微信web开发者工具 v1.06.2304191
